@@ -1,0 +1,29 @@
+{
+    "organization_id": "PUBLIC-REF-ABA-001",
+    "organization_name": "ABA Bank",
+    "organization_type": "Public Brand Reference",
+    "official_domain": "ababank.com",
+
+    "reference_information": {
+        "reference_source": "ABA Bank official website",
+        "reference_status": "PUBLIC_REFERENCE_ONLY",
+        "affiliation": false,
+        "authorization": false
+    },
+
+    "verification": {
+        "status": "NOT_VERIFIED",
+        "domain_verified": false,
+        "email_verified": false,
+        "admin_approved": false
+    },
+
+    "testing_configuration": {
+        "testing_mode": "PUBLIC_REFERENCE_ONLY",
+        "domain_variation_generation_enabled": true,
+        "similarity_analysis_enabled": true,
+        "candidate_dns_lookups_enabled": false,
+        "external_website_scanning_enabled": false,
+        "third_party_scanning_enabled": false
+    }
+}

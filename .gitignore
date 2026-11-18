@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code settings
+.vscode/
+
+# Generated reports
+reports/*.json
+reports/*.txt
+reports/*.csv
+# Python testing cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Frontend dependencies
+node_modules/
+dist/
+build/
+# Generated test reports
+tests/*report*.json

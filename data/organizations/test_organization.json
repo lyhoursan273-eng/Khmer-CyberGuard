@@ -1,0 +1,36 @@
+{
+    "organization_id": "KCG-TEST-001",
+    "organization_name": "Sample Bank",
+    "organization_type": "Fictional Test Organization",
+    "contact_email": "admin@example.com",
+    "official_domain": "samplebank.example",
+
+    "brand_information": {
+        "english_name": "Sample Bank",
+        "khmer_name": null,
+        "brand_keywords": [
+            "Sample Bank",
+            "Sample",
+            "Bank"
+        ],
+        "logo_file": null
+    },
+
+    "verification": {
+        "status": "TEST_ONLY",
+        "domain_verified": false,
+        "email_verified": false,
+        "admin_approved": false
+    },
+
+    "testing_configuration": {
+        "testing_mode": "LOCAL_SCENARIOS",
+        "external_website_scanning_enabled": false,
+        "third_party_scanning_enabled": false,
+        "allowed_test_data": [
+            "fictional_domains",
+            "local_mock_websites",
+            "offline_threat_intelligence_records"
+        ]
+    }
+}
