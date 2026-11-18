@@ -1,0 +1,28 @@
+{
+    "feed_metadata": {
+        "feed_name": "KCG Synthetic Test Feed",
+        "feed_type": "SYNTHETIC_TEST_FIXTURE",
+        "is_real_threat_intelligence": false,
+        "purpose": "Module 3 automated testing only"
+    },
+    "records": [
+        {
+            "record_id": "KCG-TI-TEST-001",
+            "url": "https://samplebank-login.example/verify-account",
+            "normalized_url": "https://samplebank-login.example/verify-account",
+            "threat_type": "phishing_simulation",
+            "status": "test_match",
+            "source": "KCG_SYNTHETIC_FIXTURE",
+            "test_only": true
+        },
+        {
+            "record_id": "KCG-TI-TEST-002",
+            "url": "https://samplebank-login.example/account-update",
+            "normalized_url": "https://samplebank-login.example/account-update",
+            "threat_type": "phishing_simulation",
+            "status": "test_match",
+            "source": "KCG_SYNTHETIC_FIXTURE",
+            "test_only": true
+        }
+    ]
+}
